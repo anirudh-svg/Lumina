@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .kbd {
+    @apply bg-slate-800 border-b-2 border-slate-950 text-slate-300 px-2 py-1 rounded text-xs font-bold font-mono text-center min-w-[24px];
+  }
+}
+
+body {
+  background-color: #020617;
+  color: white;
+}
